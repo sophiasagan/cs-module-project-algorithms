@@ -7,7 +7,8 @@ def moving_zeroes(arr):
     moved_arr = []
     for element in arr:
         if element != 0:
-            moved_arr.insert(0, element)
+            # moved_arr.insert(0, element)
+            moved_arr = [element] + moved_arr
         else:
             moved_arr.append(element)
 
