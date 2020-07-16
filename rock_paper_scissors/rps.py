@@ -6,6 +6,7 @@ import itertools
 choices = [['rock'], ['paper'], ['scissors']]
 
 def rock_paper_scissors(num_plays):
+  if 
 
   for i in range(0, len(choices)+1):
     for subset in itertools.combinations(choices, i):

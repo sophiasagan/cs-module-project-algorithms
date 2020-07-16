@@ -98,6 +98,43 @@ print(f'{eating_cookies(35, [0 for i in range(36)])}')
 print(f'\nResult calculated in {time.time()-start:.5f} seconds')
 print('\n------------------------\n')
 
+'''
+13
+
+Result calculated in 0.00500 seconds
+
+------------------------
+
+274
+
+Result calculated in 0.00100 seconds
+
+------------------------
+
+5768
+
+Result calculated in 0.00200 seconds
+
+------------------------
+
+121415
+
+Result calculated in 0.05000 seconds
+
+------------------------
+
+53798080
+
+Result calculated in 20.44561 seconds
+
+------------------------
+
+1132436852
+
+Result calculated in 418.06965 seconds
+
+------------------------
+'''
 
 if __name__ == "__main__":
     # Use the main function here to test out your implementation
