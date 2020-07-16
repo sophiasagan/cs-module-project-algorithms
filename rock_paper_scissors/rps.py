@@ -1,12 +1,16 @@
 #!/usr/bin/python
 
 import sys
+import itertools
 
-def rock_paper_scissors(n):
-  # Your code here
+choices = [['rock'], ['paper'], ['scissors']]
 
-  pass
+def rock_paper_scissors(num_plays):
 
+  for i in range(0, len(choices)+1):
+    for subset in itertools.combinations(choices, i):
+      return(subset)
+  
 
 if __name__ == "__main__":
   if len(sys.argv) > 1:
