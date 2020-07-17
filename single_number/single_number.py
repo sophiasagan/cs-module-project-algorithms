@@ -14,6 +14,7 @@ def single_number(arr):
         # print(i)
     return i
 
+# sean chen lecture
 def single_number2(arr):
     s = set()
     for x in arr:
